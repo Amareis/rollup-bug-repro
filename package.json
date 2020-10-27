@@ -1,0 +1,11 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node index.js && rollup -c && node dist/index.js"
+  },
+  "devDependencies": {
+    "rollup": "rollup/rollup#improve-execution-order"
+  },
+  "type": "module"
+}
