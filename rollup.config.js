@@ -1,9 +1,21 @@
-export default {
-    input: 'index.js',
-    treeshake: false,
-    output: {
-        dir: 'dist',
-        format: 'esm',
-        preserveModules: true,
+export default [
+    {
+        input: 'complex/index.js',
+        treeshake: false,
+        output: {
+            dir: 'dist/complex',
+            format: 'esm',
+            preserveModules: true,
+        },
     },
-}
+    {
+        input: 'simple/main.js',
+        treeshake: false,
+        output: {
+            dir: 'dist/simple',
+            format: 'esm',
+            preserveModules: true,
+        },
+    },
+]
+

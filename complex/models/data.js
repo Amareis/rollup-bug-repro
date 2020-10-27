@@ -1,5 +1,5 @@
 import {
-    Settings, Preferences, Views, Users, Chats, Reminders, Issues, Groups, Tags,
+    Settings, Preferences, /*Views,*/ Users, Chats, Reminders, Issues, Groups, Tags,
 } from './internal.js'
 
 export const dataModel = console.log
@@ -10,8 +10,8 @@ export const send = console.log
 
 export const subscribe = console.log
 
-
+dataModel('Data')
 export default class Data {
-    used = [Settings, Preferences, Views, Users, Chats, Reminders, Issues, Groups, Tags]
+    used = [Settings, Preferences, /*Views,*/ Users, Chats, Reminders, Issues, Groups, Tags]
 }
 

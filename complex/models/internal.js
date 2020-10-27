@@ -13,13 +13,13 @@ import Preferences from './preferences.js'
 import Settings from './settings.js'
 import PageInfo from './pageInfo.js'
 
-import {dateTitle, Filter, isFilterValid} from './views/issues.js'
-
-import ParamsView from './views/params.js'
-
-import Messaging, {Anchor} from './views/messaging.js'
-
-import Views from './views/index.js'
+// import {dateTitle, Filter, isFilterValid} from './views/issues.js'
+//
+// import ParamsView from './views/params.js'
+//
+// import Messaging, {Anchor} from './views/messaging.js'
+//
+// import Views from './views/index.js'
 
 export {
     dataModel,
@@ -49,20 +49,20 @@ export {
     Preferences,
     Settings,
 
-    Views,
+    // Views,
     PageInfo,
     CheckStatus,
 
-    Filter,
-    isFilterValid,
-
-    dateTitle,
+    // Filter,
+    // isFilterValid,
+    //
+    // dateTitle,
     imagesMimes,
     makeFrom,
     urlFor,
 
-    Messaging,
-    Anchor,
-
-    ParamsView,
+    // Messaging,
+    // Anchor,
+    //
+    // ParamsView,
 }

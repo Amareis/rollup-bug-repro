@@ -2,7 +2,8 @@
   "name": "ex",
   "version": "1.0.0",
   "scripts": {
-    "test": "node index.js && rollup -c && node dist/index.js"
+    "test:simple": "node simple/main.js && rollup -c && node dist/simple/main.js",
+    "test:complex": "node complex/index.js && rollup -c && node dist/complex/index.js"
   },
   "devDependencies": {
     "rollup": "rollup/rollup#improve-execution-order"
